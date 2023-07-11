@@ -1,0 +1,47 @@
+.app-container{
+    background-image: linear-gradient(to right,#6581BF,#2F57AB,#454545);
+    height: 100vh;
+    overflow: auto;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(16, 148, 73);
+    position: relative;
+    display: inline-block;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0px);
+    }
+    15%{
+        transform: translateY(-30px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+}
+
+
+.main-jokes-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+

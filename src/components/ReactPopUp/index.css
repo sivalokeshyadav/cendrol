@@ -1,0 +1,75 @@
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.button-item{
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+    cursor: pointer;
+    border-width: 0px;
+    
+}
+
+.joke-item{
+    font-size: 32px;
+}
+
+span{
+    color: blueviolet;
+}
+
+.popup-container{
+    background-color: #040D43;
+}
+
+.joke-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: #1a1a1a;
+    border-width: 5px;
+    border-style:solid;
+    border-color:black;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.next-btn{
+    background-color: #1260CC;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    border-width: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main-name-container{
+    color: white;
+    text-align: center;
+}
+
+.popup-btn{
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    background-color: none;
+}
